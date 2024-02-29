@@ -1,0 +1,44 @@
+/*Letra para el proyecto, la podemos cambiar*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+/*Seccion para dar formato global*/
+body {
+    background-color: #94D9EA;
+}
+
+.main-container section{
+    padding: 1em;
+    background: #a8b4b6;
+}
+
+section:hover {
+    border: 2px solid #770771;
+}
+
+
+/*Seccion de contenedor principal "main-container"*/
+
+.main-container{
+    min-height: 150vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-rows:repeat(4, 1fr);
+}
+/* Leyla"""""
+html {
+    /*Me permite deslizar cuando hago clic en los links del menu/
+    scroll-behavior: smooth;
+    
+
+}
+
+*/
